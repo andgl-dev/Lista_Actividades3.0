@@ -1,0 +1,16 @@
+digraph G{
+ranksep=.75; size= "4.5,4.5";
+{node [shape = plaintext,font=16];
+"Inicio"->"4am"
+"4am";}node [shape=box];{ rank = same; "Inicio"->"lunes"->"martes"->"miercoles"->"jueves";}{rank =same;"4am"->"hola"->"mundo";
+"mundo"->"hola";
+"mundo"->"que";
+"que"->"mundo";
+"que"->"pasa";
+"pasa"->"que";
+}
+"lunes"->"hola";
+"martes"->"mundo";
+"miercoles"->"que";
+"jueves"->"pasa";
+}
